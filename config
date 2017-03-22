@@ -1,0 +1,28 @@
+[CV]
+needpass = 
+needpass0 = Public,PU
+needpass1 = Private,PR
+gametype = 
+gametype0 = Free for All,FFA
+gametype1 = Last Man Standing,LMS
+gametype2 = Free for All,FFA
+gametype3 = Team Deathmatch,TDM
+gametype4 = Team Survivor,TS
+gametype5 = Follow the Leader,FTL
+gametype6 = Capture & Hold,CNH
+gametype7 = Capture the Flag,CTF
+gametype8 = Bomb & Defuse,BM
+gametype9 = Jump Mode,J
+gametype10 = Freeze Tag,FT
+gametype11 = Gun Game,GUN
+
+[MWP]
+hostname = 0,1,1,left,host
+modversion = 8,2,1,right,ver.
+ping = 4,3,1,right,ping
+clients = 4,4,1,right,players
+bots = 4,5,1,right,bots
+sv_maxclients = 4,6,1,right,maxPlayers
+gametype = 4,7,1,right,gametype
+mapname = 20,8,1,left,map
+

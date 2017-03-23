@@ -145,18 +145,18 @@ def main(stdscr):
     if curses.has_colors():
         bkg = 240
         curses.start_color()
-        curses.init_pair(200,  curses.COLOR_BLACK, bkg)
-        curses.init_pair(201,  curses.COLOR_RED, bkg)
-        curses.init_pair(202,  curses.COLOR_GREEN, bkg)
+        curses.init_pair(200, curses.COLOR_BLACK, bkg)
+        curses.init_pair(201, curses.COLOR_RED, bkg)
+        curses.init_pair(202, curses.COLOR_GREEN, bkg)
         curses.init_pair(203, 11, bkg)  # Curses.COLOR_YELLOW
-        curses.init_pair(204,  curses.COLOR_BLUE, bkg)
-        curses.init_pair(205,  curses.COLOR_CYAN, bkg)
-        curses.init_pair(206,  curses.COLOR_MAGENTA, bkg)
-        curses.init_pair(207,  curses.COLOR_WHITE, bkg)
-        curses.init_pair(208,  203, bkg)
-        curses.init_pair(209,  8, bkg)
+        curses.init_pair(204, curses.COLOR_BLUE, bkg)
+        curses.init_pair(205, curses.COLOR_CYAN, bkg)
+        curses.init_pair(206, curses.COLOR_MAGENTA, bkg)
+        curses.init_pair(207, curses.COLOR_WHITE, bkg)
+        curses.init_pair(208, 203, bkg)
+        curses.init_pair(209, 8, bkg)
         curses.init_pair(210, bkg, curses.COLOR_BLACK)
-        curses.init_pair(211,  bkg, curses.COLOR_RED)
+        curses.init_pair(211, bkg, curses.COLOR_RED)
         curses.init_pair(212, bkg, curses.COLOR_GREEN)
         curses.init_pair(213, bkg, 11)
         curses.init_pair(214, bkg, curses.COLOR_BLUE)
@@ -168,6 +168,7 @@ def main(stdscr):
         curses.mousemask(curses.ALL_MOUSE_EVENTS)
     config.defconfig(False)
     keyloop(stdscr)
+
 
 if __name__ == '__main__':
     curses.wrapper(main)
